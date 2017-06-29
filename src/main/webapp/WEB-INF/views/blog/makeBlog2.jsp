@@ -27,6 +27,10 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 						<img src="resources/images/layout/layout3.jpg">
 						<input type="radio" name="layout" value="4">
 						<img src="resources/images/layout/layout4.jpg">
+						<input type="radio" name="layout" value="5">
+						<img src="resources/images/layout/layout5.jpg">
+						<input type="radio" name="layout" value="6">
+						<img src="resources/images/layout/layout6.jpg">
 					</div>
 					</td>
 					<td>
