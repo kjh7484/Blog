@@ -26,7 +26,9 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 						<input type="radio" name="skin" value="skin4">
 					</div>
 					</td>
-					<td>마음에 드는 스킨으로<br> 블로그를 꾸며보세요<br>(스킨선택시 블로그 배경,타이틀 이미지는 자동으로 변경됩니다)</td>
+					<td>마음에 드는 스킨으로<br> 블로그를 꾸며보세요<br>(스킨선택시 블로그 배경,타이틀 이미지는 자동으로 변
+
+경됩니다)</td>
 				</tr>
 				<tr>
 					<td>배경 이미지</td>

@@ -19,9 +19,3 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 </section>
 <%@ include file="aside.jsp"%>
 <%@ include file="footer.jsp"%>
-	
-	
-	
-	
-
-	

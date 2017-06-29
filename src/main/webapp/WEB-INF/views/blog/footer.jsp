@@ -93,7 +93,7 @@
 						</font>	
 						</td>	
 					</tr>
-				</table>
+				</table> 
 			</div>
 		</footer>
 	</body>
