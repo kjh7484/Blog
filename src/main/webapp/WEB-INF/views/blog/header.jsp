@@ -64,8 +64,17 @@
 	        }          
 	        } //end if
 		} //end readURL
-		
 	});
+	
+	function layoutChoice(num){  //makeBlog2 layout 변경
+ 		document.getElementById('layout'+num).checked = true;
+	
+		for(var i=0; i<layout.length; i++){
+			//다른이미지 원래대로 돌아오게 변경
+		}
+ 		 $('.layout'+num).attr("src",
+         "resources/images/layout/layout"+num+"on.jpg");
+ 	}
 	
  	function changeArea(){
  		var area1 = ['문학·책','영화','미술·디자인','공연·전시','음악','드라마','스타·연예인','만화·애니','방송']; //9개
@@ -100,7 +109,9 @@
 				i=0;
 				area.options[0] = new Option('==선택하세요==',31)
 		} 
-	} 
+	}
+ 	
+ 	
 </script>
 </head>
 <body onContextmenu="return false">

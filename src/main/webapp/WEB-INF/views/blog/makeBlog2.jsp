@@ -16,25 +16,25 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 		<form action="blogMake2pro.blog" method="post" enctype="multipart/form-data">
 			<table>
 				<tr>
-					<td>레이아웃</td>
-					<td>
+					<td width="8%">레이아웃</td>
+					<td width="72%">
 					<div align="center">
-						<input type="radio" name="layout" value="1" checked>
-						<img src="resources/images/layout/layout1.jpg">
-						<input type="radio" name="layout" value="2">
-						<img src="resources/images/layout/layout2.jpg">
-						<input type="radio" name="layout" value="3">
-						<img src="resources/images/layout/layout3.jpg">
-						<input type="radio" name="layout" value="4">
-						<img src="resources/images/layout/layout4.jpg">
-						<input type="radio" name="layout" value="5">
-						<img src="resources/images/layout/layout5.jpg">
-						<input type="radio" name="layout" value="6">
-						<img src="resources/images/layout/layout6.jpg">
+						<input type="radio" name="layout" value="1" id="layout1" checked>
+						<img src="resources/images/layout/layout1.jpg" onclick='layoutChoice(1)' style="cursor:pointer;" class="layout1">
+						<input type="radio" name="layout" value="2" id="layout2">
+						<img src="resources/images/layout/layout2.jpg" onclick='layoutChoice(2)' style="cursor:pointer;" class="layout2">
+						<input type="radio" name="layout" value="3" id="layout3">
+						<img src="resources/images/layout/layout3.jpg" onclick='layoutChoice(3)' style="cursor:pointer;" class="layout3">
+						<input type="radio" name="layout" value="4" id="layout4">
+						<img src="resources/images/layout/layout4.jpg" onclick='layoutChoice(4)' style="cursor:pointer;" class="layout4">
+						<input type="radio" name="layout" value="5" id="layout5">
+						<img src="resources/images/layout/layout5.jpg" onclick='layoutChoice(5)' style="cursor:pointer;" class="layout5">
+						<input type="radio" name="layout" value="6" id="layout6">
+						<img src="resources/images/layout/layout6.jpg" onclick='layoutChoice(6)' style="cursor:pointer;" class="layout6">
 					</div>
 					</td>
-					<td>
-					레이아웃은 추후에 변경 가능합니다.
+					<td width="20%">
+					레이아웃은 추후에<br> 변경 가능합니다.
 					</td>
 				</tr>
 				<tr>
