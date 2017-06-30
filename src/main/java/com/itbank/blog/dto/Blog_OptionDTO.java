@@ -1,6 +1,7 @@
 package com.itbank.blog.dto;
 
 public class Blog_OptionDTO {
+private String id;
 private String blogname;
 private int layout;
 private String profile;
@@ -8,6 +9,13 @@ private String background;
 private String header;
 private String nickname;
 private String introduce;
+
+public String getId() {
+	return id;
+}
+public void setId(String id) {
+	this.id = id;
+}
 public String getBlogname() {
 	return blogname;
 }

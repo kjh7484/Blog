@@ -17,6 +17,7 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 		<h3>1단계:블로그 기본설정</h3>
 		
 		<form action="blogMake2.blog" method="post" enctype="multipart/form-data" name="makeblog">
+		<input type="hidden" name="id" value="${id}"> 
 			<table>
 				<tr>
 					<td>제목</td>
@@ -30,7 +31,7 @@ String hdPath = config.getServletContext().getRealPath("/WEB-INF/blog/header/");
 				</tr>
 				<tr>
 					<td>소개글</td>
-					<td><textarea rows="10" cols="20" maxlength="200"></textarea></td>
+					<td><textarea rows="10" cols="20" maxlength="200" name="introduce"></textarea></td>
 					<td>블로그 프로필 영역의<br>프로필사진 아래에 반영됩니다.<br>(200자 이내)</td>
 				</tr>
 				<tr>

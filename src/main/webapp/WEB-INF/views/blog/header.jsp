@@ -69,11 +69,15 @@
 	function layoutChoice(num){  //makeBlog2 layout 변경
  		document.getElementById('layout'+num).checked = true;
 	
-		for(var i=0; i<layout.length; i++){
-			//다른이미지 원래대로 돌아오게 변경
+		for(var i=1; i<=6; i++){
+			$('.layout'+i).attr("src",
+			         "resources/images/layout/layout"+i+".jpg");
+			$('.layoutedit'+i).slideUp(200);
 		}
  		 $('.layout'+num).attr("src",
          "resources/images/layout/layout"+num+"on.jpg");
+ 		 
+ 		$('.layoutedit'+num).slideDown(200);
  	}
 	
  	function changeArea(){
